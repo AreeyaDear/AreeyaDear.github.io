@@ -27,7 +27,7 @@
                     <div class="card-title" id="format2">
                         <h3>Photo ID</h3>
                         <hr>
-                        <div class="mb-2"><label style="font-size: 14pt">อัพโหลดรูปภาพ</label></div>
+                        <div class="mb-2"><label style="font-size: 14pt">Upload Image</label></div>
                         <input type="file" id="imageUpload" accept="image/*">
                     </div>
                     <div class="card-body">
@@ -107,8 +107,8 @@
                         imagesCount = 4;
                     }
 
-                    canvas.width = paperWidth * 150; // 1 inch = 100 pixels
-                    canvas.height = paperHeight * 150; // 1 inch = 100 pixels
+                    canvas.width = paperWidth * 100; // 1 inch = 100 pixels
+                    canvas.height = paperHeight * 100; // 1 inch = 100 pixels
 
                     var reader = new FileReader();
                     reader.onload = function(event) {
