@@ -12,7 +12,14 @@
 </head>
 
 <body>
-    <?php include('navbar.php'); ?>
+    <nav class="navbar navbar-expand-lg" style="background-color: #FCFCFC;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://static.vecteezy.com/system/resources/previews/008/470/397/original/3d-camera-illustration-icon-transparent-free-png.png" alt="" width="40px" height="40px">
+                เดียร์ สตูดิโอ
+            </a>
+        </div>
+    </nav>
     <section id="sectionpage">
         <div class="row">
             <div class="col-4">
@@ -235,6 +242,7 @@
     body {
         background-color: #DCEFFF;
         font-family: 'Kanit', sans-serif;
+        padding-top: 50px;
     }
 
     section {
@@ -244,6 +252,13 @@
     canvas {
         border: 1px solid white;
     }
+
+    .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
 </style>
 
 
